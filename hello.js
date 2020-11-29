@@ -1,6 +1,6 @@
 //console.log("Hello World"); //can be called on terminal using node hello.js
 //changed
-var http = reqiure('http');
+var http = require('http');
 
 http.createServer(function (req, res) {
 	res.writeHead(200,{'Content-Type': 'text/html'});
